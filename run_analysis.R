@@ -73,5 +73,3 @@
         tidyset <- tidyset[order(tidyset$Subject_ID,tidyset$Activity_ID),]
         write.table(tidyset, file = "tidydata.txt",row.name=FALSE)
         View(tidyset)
-        
-        
