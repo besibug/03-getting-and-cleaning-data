@@ -71,7 +71,7 @@
         
         tidyset <- aggregate(. ~Subject_ID + Activity_ID, cmb_set_2, mean)
         tidyset <- tidyset[order(tidyset$Subject_ID,tidyset$Activity_ID),]
-        write.table(tidyset, file = "tidydata.csv",row.name=FALSE)
+        write.table(tidyset, file = "tidydata.txt",row.name=FALSE)
         View(tidyset)
         
         

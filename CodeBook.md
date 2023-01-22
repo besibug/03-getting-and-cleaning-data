@@ -57,7 +57,7 @@ Running `run_analysis.R` does the following:
 6.  Renames the numeric activity code to the descriptive terms
     (e.g. “WALKING)
 7.  Takes the mean of each feature for each activity and subject and
-    stores them in a new tidy dataset (.csv)
+    stores them in a new tidy dataset
 
 ### Variables and Sets
 
@@ -71,4 +71,4 @@ naming
 data.  
 `cmb_set_2`: Combined data set, that has been subset to only contain
 coloumns with “mean” and “std”  
-`tidyset`: Tidy dataset, final output as .csv file  
+`tidyset`: Tidy dataset, final output as .txt file  
